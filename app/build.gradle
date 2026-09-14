@@ -1,1 +1,19 @@
+plugins {
+    id 'com.android.application'
+}
 
+android {
+    namespace 'com.homewalkietalkie'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.homewalkietalkie'
+        minSdk 26
+        targetSdk 35
+        versionCode 1
+        versionName '0.2.0'
+    }
+}
+
+dependencies {
+}
